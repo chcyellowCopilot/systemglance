@@ -7,359 +7,370 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-	1A000100 /* SystemGlanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010F /* SystemGlanceApp.swift */; };
-	1A000101 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010E /* PopoverView.swift */; };
-	1A000102 /* SystemMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010D /* SystemMonitor.swift */; };
-	1A000103 /* TemperatureMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010C /* TemperatureMonitor.swift */; };
-	1A000104 /* FanSpeedMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010B /* FanSpeedMonitor.swift */; };
-	1A000105 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010A /* NetworkMonitor.swift */; };
-	1A000106 /* SystemStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000109 /* SystemStats.swift */; };
-	1A000107 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A000108 /* AppKit.framework */; };
+		1A000101 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010E /* PopoverView.swift */; };
+		1A000102 /* SystemMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010D /* SystemMonitor.swift */; };
+		1A000103 /* TemperatureMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010C /* TemperatureMonitor.swift */; };
+		1A000104 /* FanSpeedMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010B /* FanSpeedMonitor.swift */; };
+		1A000105 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010A /* NetworkMonitor.swift */; };
+		1A000106 /* SystemStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000109 /* SystemStats.swift */; };
+		1A000107 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A000108 /* AppKit.framework */; };
+		1A000108A /* StatusBarSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0001089 /* StatusBarSettings.swift */; };
+		EA1BE2ED2FCFC63E0014DE9A /* SystemGlanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1BE2EB2FCFC63E0014DE9A /* SystemGlanceApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-	1A0000FD /* SystemGlance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemGlance.app; sourceTree = BUILT_PRODUCTS_DIR; };
-	1A000108 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-	1A000109 /* SystemStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemStats.swift; sourceTree = "<group>"; };
-	1A00010A /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
-	1A00010B /* FanSpeedMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanSpeedMonitor.swift; sourceTree = "<group>"; };
-	1A00010C /* TemperatureMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureMonitor.swift; sourceTree = "<group>"; };
-	1A00010D /* SystemMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemMonitor.swift; sourceTree = "<group>"; };
-	1A00010E /* PopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
-	1A00010F /* SystemGlanceApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemGlanceApp.swift; sourceTree = "<group>"; };
-	1A000110 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-	1A0000FC /* SystemGlance */ = {isa = PBXNativeTarget; buildConfigurationList = 1A000114 /* Build configuration list for PBXNativeTarget "SystemGlance" */; buildPhases = (1A0000F9, 1A0000FA, 1A0000FB); buildRules = (); dependencies = (); name = SystemGlance; productName = SystemGlance; productReference = 1A0000FD /* SystemGlance.app */; productType = "com.apple.product-type.application"; };
+		1A0000FD /* SystemGlance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemGlance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A000108 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A0001089 /* StatusBarSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarSettings.swift; sourceTree = "<group>"; };
+		1A000109 /* SystemStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemStats.swift; sourceTree = "<group>"; };
+		1A00010A /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		1A00010B /* FanSpeedMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanSpeedMonitor.swift; sourceTree = "<group>"; };
+		1A00010C /* TemperatureMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureMonitor.swift; sourceTree = "<group>"; };
+		1A00010D /* SystemMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemMonitor.swift; sourceTree = "<group>"; };
+		1A00010E /* PopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		1A000110 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1BE2EB2FCFC63E0014DE9A /* SystemGlanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemGlanceApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-	1A0000FA /* Frameworks */ = {
-		isa = PBXFrameworksBuildPhase;
-		buildActionMask = 2147483647;
-		files = (
-			1A000107 /* AppKit.framework in Frameworks */,
-		);
-		runOnlyForDeploymentPostprocessing = 0;
-	};
+		1A0000FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A000107 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-	1A0000F4 = {
-		isa = PBXGroup;
-		children = (
-			1A0000FF /* Sources */,
-			1A000108 /* AppKit.framework */,
-			1A0000FD /* SystemGlance.app */,
-		);
-		sourceTree = "<group>";
-	};
-	1A0000FF /* Sources */ = {
-		isa = PBXGroup;
-		children = (
-			1A00010F /* SystemGlanceApp.swift */,
-			1A000111 /* Views */,
-			1A000112 /* Services */,
-			1A000113 /* Models */,
-			1A000110 /* Info.plist */,
-		);
-		path = Sources;
-		sourceTree = SOURCE_ROOT;
-	};
-	1A000111 /* Views */ = {
-		isa = PBXGroup;
-		children = (
-			1A00010E /* PopoverView.swift */,
-		);
-		path = Views;
-		sourceTree = "<group>";
-	};
-	1A000112 /* Services */ = {
-		isa = PBXGroup;
-		children = (
-			1A00010D /* SystemMonitor.swift */,
-			1A00010C /* TemperatureMonitor.swift */,
-			1A00010B /* FanSpeedMonitor.swift */,
-			1A00010A /* NetworkMonitor.swift */,
-		);
-		path = Services;
-		sourceTree = "<group>";
-	};
-	1A000113 /* Models */ = {
-		isa = PBXGroup;
-		children = (
-			1A000109 /* SystemStats.swift */,
-		);
-		path = Models;
-		sourceTree = "<group>";
-	};
+		1A0000F4 = {
+			isa = PBXGroup;
+			children = (
+				1A0000FF /* Sources */,
+				1A000108 /* AppKit.framework */,
+				1A0000FD /* SystemGlance.app */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0000FF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EA1BE2EC2FCFC63E0014DE9A /* App */,
+				1A000111 /* Views */,
+				1A000112 /* Services */,
+				1A000113 /* Models */,
+				1A000110 /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		1A000111 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A00010E /* PopoverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A000112 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1A00010D /* SystemMonitor.swift */,
+				1A00010C /* TemperatureMonitor.swift */,
+				1A00010B /* FanSpeedMonitor.swift */,
+				1A00010A /* NetworkMonitor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1A000113 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A000109 /* SystemStats.swift */,
+				1A0001089 /* StatusBarSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA1BE2EC2FCFC63E0014DE9A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EA1BE2EB2FCFC63E0014DE9A /* SystemGlanceApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-	1A0000FC /* SystemGlance */ = {
-		isa = PBXNativeTarget;
-		buildConfigurationList = 1A000114 /* Build configuration list for PBXNativeTarget "SystemGlance" */;
-		buildPhases = (
-			1A0000F9 /* Sources */,
-			1A0000FA /* Frameworks */,
-			1A0000FB /* Resources */,
-		);
-		buildRules = (
-		);
-		dependencies = (
-		);
-		name = SystemGlance;
-		productName = SystemGlance;
-		productReference = 1A0000FD /* SystemGlance.app */;
-		productType = "com.apple.product-type.application";
-	};
+		1A0000FC /* SystemGlance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A000114 /* Build configuration list for PBXNativeTarget "SystemGlance" */;
+			buildPhases = (
+				1A0000F9 /* Sources */,
+				1A0000FA /* Frameworks */,
+				1A0000FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemGlance;
+			productName = SystemGlance;
+			productReference = 1A0000FD /* SystemGlance.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-	1A0000F5 /* Project object */ = {
-		isa = PBXProject;
-		attributes = {
-			BuildIndependentTargetsInParallel = 1;
-			LastSwiftUpdateCheck = 1400;
-			LastUpgradeCheck = 1400;
-			TargetAttributes = {
-				1A0000FC = {
-					CreatedOnToolsVersion = 14.0;
+		1A0000F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1A0000FC = {
+						CreatedOnToolsVersion = 14.0;
+					};
 				};
 			};
+			buildConfigurationList = 1A0000F8 /* Build configuration list for PBXProject "SystemGlance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0000F4;
+			productRefGroup = 1A0000FD /* SystemGlance.app */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0000FC /* SystemGlance */,
+			);
 		};
-		buildConfigurationList = 1A0000F8 /* Build configuration list for PBXProject "SystemGlance" */;
-		compatibilityVersion = "Xcode 14.0";
-		developmentRegion = en;
-		hasScannedForEncodings = 0;
-		knownRegions = (
-			en,
-			Base,
-		);
-		mainGroup = 1A0000F4;
-		productRefGroup = 1A0000FD /* Products */;
-		projectDirPath = "";
-		projectRoot = "";
-		targets = (
-			1A0000FC /* SystemGlance */,
-		);
-	};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-	1A0000FB /* Resources */ = {
-		isa = PBXResourcesBuildPhase;
-		buildActionMask = 2147483647;
-		files = (
-		);
-		runOnlyForDeploymentPostprocessing = 0;
-	};
+		1A0000FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-	1A0000F9 /* Sources */ = {
-		isa = PBXSourcesBuildPhase;
-		buildActionMask = 2147483647;
-		files = (
-			1A000100 /* SystemGlanceApp.swift in Sources */,
-			1A000101 /* PopoverView.swift in Sources */,
-			1A000102 /* SystemMonitor.swift in Sources */,
-			1A000103 /* TemperatureMonitor.swift in Sources */,
-			1A000104 /* FanSpeedMonitor.swift in Sources */,
-			1A000105 /* NetworkMonitor.swift in Sources */,
-			1A000106 /* SystemStats.swift in Sources */,
-		);
-		runOnlyForDeploymentPostprocessing = 0;
-	};
+		1A0000F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1BE2ED2FCFC63E0014DE9A /* SystemGlanceApp.swift in Sources */,
+				1A000101 /* PopoverView.swift in Sources */,
+				1A000102 /* SystemMonitor.swift in Sources */,
+				1A000103 /* TemperatureMonitor.swift in Sources */,
+				1A000104 /* FanSpeedMonitor.swift in Sources */,
+				1A000105 /* NetworkMonitor.swift in Sources */,
+				1A000106 /* SystemStats.swift in Sources */,
+				1A000108A /* StatusBarSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-	1A000115 /* Debug */ = {
-		isa = XCBuildConfiguration;
-		buildSettings = {
-			ALWAYS_SEARCH_USER_PATHS = NO;
-			CLANG_ANALYZER_NONNULL = YES;
-			CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-			CLANG_CXX_LANGUAGE_DIALECT = "c++17";
-			CLANG_CXX_LIBRARY = "libc++";
-			CLANG_ENABLE_MODULES = YES;
-			CLANG_ENABLE_OBJC_ARC = YES;
-			CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-			CLANG_WARN_BOOL_CONVERSION = YES;
-			CLANG_WARN_COMMA = YES;
-			CLANG_WARN_CONSTANT_CONVERSION = YES;
-			CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-			CLANG_WARN_DIRECT_OBJC_ISS_CONFLICT = YES;
-			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-			CLANG_WARN_EMPTY_BODY = YES;
-			CLANG_WARN_ENUM_CONVERSION = YES;
-			CLANG_WARN_INFINITE_RECURSION = YES;
-			CLANG_WARN_INT_CONVERSION = YES;
-			CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-			CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-			CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-			CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-			CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-			CLANG_WARN_STRICT_PROTOTYPES = YES;
-			CLANG_WARN_SUSPICIOUS_MOVE = YES;
-			CLANG_WARN_SUSPICIOUS_MOVES = YES;
-			CLANG_WARN_UNREACHABLE_CODE = YES;
-			CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-			COPY_PHASE_STRIP = NO;
-			DEBUG_INFORMATION_FORMAT = dwarf;
-			ENABLE_STRICT_OBJC_MSGSEND = YES;
-			ENABLE_TESTABILITY = YES;
-			GCC_C_LANGUAGE_DIALECT = gnu17;
-			GCC_DYNAMIC_NO_PIC = NO;
-			GCC_NO_COMMON_BLOCKS = YES;
-			GCC_OPTIMIZATION_LEVEL = 0;
-			GCC_PREPROCESSOR_DEFINITIONS = (
-				"DEBUG=1",
-				"$(inherited)",
-			);
-			GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-			GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-			GCC_WARN_UNDECLARED_SELECTOR = YES;
-			GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-			GCC_WARN_UNUSED_FUNCTION = YES;
-			GCC_WARN_UNUSED_VARIABLE = YES;
-			MACOSX_DEPLOYMENT_TARGET = 12.0;
-			MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-			MTL_FAST_MATH = YES;
-			ONLY_ACTIVE_ARCH = YES;
-			SDKROOT = macosx;
-			SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		1A000115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_DIALECT = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISS_CONFLICT = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_DIALECT = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
 		};
-		name = Debug;
-	};
-	1A000116 /* Release */ = {
-		isa = XCBuildConfiguration;
-		buildSettings = {
-			ALWAYS_SEARCH_USER_PATHS = NO;
-			CLANG_ANALYZER_NONNULL = YES;
-			CLANG_CXX_LANGUAGE_DIALECT = "c++17";
-			CLANG_CXX_LIBRARY = "libc++";
-			CLANG_ENABLE_MODULES = YES;
-			CLANG_ENABLE_OBJC_ARC = YES;
-			CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-			CLANG_WARN_BOOL_CONVERSION = YES;
-			CLANG_WARN_COMMA = YES;
-			CLANG_WARN_CONSTANT_CONVERSION = YES;
-			CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-			CLANG_WARN_DIRECT_OBJC_ISS_CONFLICT = YES;
-			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-			CLANG_WARN_EMPTY_BODY = YES;
-			CLANG_WARN_ENUM_CONVERSION = YES;
-			CLANG_WARN_INFINITE_RECURSION = YES;
-			CLANG_WARN_INT_CONVERSION = YES;
-			CLANG_WARN_NON_LITERAL_NULL_OBJECT_CONVERSION = YES;
-			CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-			CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-			CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-			CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-			CLANG_WARN_STRICT_PROTOTYPES = YES;
-			CLANG_WARN_SUSPICIOUS_MOVE = YES;
-			CLANG_WARN_SUSPICIOUS_MOVES = YES;
-			CLANG_WARN_UNREACHABLE_CODE = YES;
-			CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-			COPY_PHASE_STRIP = NO;
-			DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-			ENABLE_NS_ASSERTIONS = NO;
-			ENABLE_STRICT_OBJC_MSGSEND = YES;
-			GCC_C_LANGUAGE_DIALECT = gnu17;
-			GCC_NO_COMMON_BLOCKS = YES;
-			GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-			GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-			GCC_WARN_UNDECLARED_SELECTOR = YES;
-			GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-			GCC_WARN_UNUSED_FUNCTION = YES;
-			GCC_WARN_UNUSED_VARIABLE = YES;
-			MACOSX_DEPLOYMENT_TARGET = 12.0;
-			MTL_ENABLE_DEBUG_INFO = NO;
-			MTL_FAST_MATH = YES;
-			SDKROOT = macosx;
-			SWIFT_COMPILATION_MODE = wholemodule;
-			SWIFT_OPTIMIZATION_LEVEL = "-O";
+		1A000116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_DIALECT = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISS_CONFLICT = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_OBJECT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_DIALECT = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
 		};
-		name = Release;
-	};
-	1A000117 /* Debug */ = {
-		isa = XCBuildConfiguration;
-		buildSettings = {
-			CODE_SIGN_ENTITLEMENTS = "";
-			CODE_SIGN_IDENTITY = "-";
-			CODE_SIGN_STYLE = Automatic;
-			COMBINE_HIDPI_IMAGES = YES;
-			CURRENT_PROJECT_VERSION = 1;
-			DEVELOPMENT_TEAM = "";
-			ENABLE_HARDENED_RUNTIME = YES;
-			GENERATE_INFOPLIST_FILE = YES;
-			INFOPLIST_FILE = Sources/Info.plist;
-			INFOPLIST_KEY_NSMainStoryboardFile = "";
-			INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-			LD_RUNPATH_SEARCH_PATHS = (
-				"$(inherited)",
-				"@executable_path/../Frameworks",
-			);
-			MACOSX_DEPLOYMENT_TARGET = 12.0;
-			MARKETING_VERSION = 1.0;
-			PRODUCT_BUNDLE_IDENTIFIER = com.chcyellow.systemglance;
-			PRODUCT_NAME = SystemGlance;
-			SWIFT_EMIT_LOC_STRINGS = YES;
-			SWIFT_VERSION = 5.0;
+		1A000117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chcyellow.systemglance;
+				PRODUCT_NAME = SystemGlance;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
 		};
-		name = Debug;
-	};
-	1A000118 /* Release */ = {
-		isa = XCBuildConfiguration;
-		buildSettings = {
-			CODE_SIGN_ENTITLEMENTS = "";
-			CODE_SIGN_IDENTITY = "-";
-			CODE_SIGN_STYLE = Automatic;
-			COMBINE_HIDPI_IMAGES = YES;
-			CURRENT_PROJECT_VERSION = 1;
-			DEVELOPMENT_TEAM = "";
-			ENABLE_HARDENED_RUNTIME = YES;
-			GENERATE_INFOPLIST_FILE = YES;
-			INFOPLIST_FILE = Sources/Info.plist;
-			INFOPLIST_KEY_NSMainStoryboardFile = "";
-			INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-			LD_RUNPATH_SEARCH_PATHS = (
-				"$(inherited)",
-				"@executable_path/../Frameworks",
-			);
-			MACOSX_DEPLOYMENT_TARGET = 12.0;
-			MARKETING_VERSION = 1.0;
-			PRODUCT_BUNDLE_IDENTIFIER = com.chcyellow.systemglance;
-			PRODUCT_NAME = SystemGlance;
-			STRIP_INSTALLED_PRODUCT = NO;
-			SWIFT_EMIT_LOC_STRINGS = YES;
-			SWIFT_VERSION = 5.0;
+		1A000118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chcyellow.systemglance;
+				PRODUCT_NAME = SystemGlance;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
 		};
-		name = Release;
-	};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-	1A0000F8 /* Build configuration list for PBXProject "SystemGlance" */ = {
-		isa = XCConfigurationList;
-		buildConfigurations = (
-			1A000115 /* Debug */,
-			1A000116 /* Release */,
-		);
-		defaultConfigurationIsVisible = 0;
-		defaultConfigurationName = Release;
-	};
-	1A000114 /* Build configuration list for PBXNativeTarget "SystemGlance" */ = {
-		isa = XCConfigurationList;
-		buildConfigurations = (
-			1A000117 /* Debug */,
-			1A000118 /* Release */,
-		);
-		defaultConfigurationIsVisible = 0;
-		defaultConfigurationName = Release;
-	};
+		1A0000F8 /* Build configuration list for PBXProject "SystemGlance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A000115 /* Debug */,
+				1A000116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A000114 /* Build configuration list for PBXNativeTarget "SystemGlance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A000117 /* Debug */,
+				1A000118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 1A0000F5 /* Project object */;

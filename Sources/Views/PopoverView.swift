@@ -2,6 +2,7 @@ import SwiftUI
 
 struct PopoverView: View {
     @ObservedObject var monitor: SystemMonitor
+    @ObservedObject var settings: StatusBarSettings
     @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
@@ -28,8 +29,8 @@ struct PopoverView: View {
                 StatRow(
                     icon: "thermometer.sun.fill",
                     label: "Temperature",
-                    value: String(format: "%.1f°C", monitor.currentStats.cpuTemp),
-                    subvalue: String(format: "GPU: %.1f°C", monitor.currentStats.gpuTemp),
+                    value: formatTemperature(monitor.currentStats.cpuTemp),
+                    subvalue: "GPU: " + formatTemperature(monitor.currentStats.gpuTemp),
                     color: tempColor(monitor.currentStats.maxTemp)
                 )
                 
@@ -37,8 +38,8 @@ struct PopoverView: View {
                 StatRow(
                     icon: "wind",
                     label: "Fan Speed",
-                    value: String(format: "%.0f RPM", monitor.currentStats.fanSpeed),
-                    subvalue: String(format: "%.0f%%", min(100, (monitor.currentStats.fanSpeed / 8000) * 100)),
+                    value: formatFanSpeed(monitor.currentStats.fanSpeed),
+                    subvalue: formatFanPercentage(monitor.currentStats.fanSpeed),
                     color: .blue
                 )
                 
@@ -46,8 +47,8 @@ struct PopoverView: View {
                 StatRow(
                     icon: "network",
                     label: "Network",
-                    value: formatNetworkSpeed(monitor.currentStats.downloadSpeed),
-                    subvalue: "↑ " + formatNetworkSpeed(monitor.currentStats.uploadSpeed),
+                    value: formatNetworkSpeed(monitor.currentStats.downloadSpeed, direction: "↓"),
+                    subvalue: formatNetworkSpeed(monitor.currentStats.uploadSpeed, direction: "↑"),
                     color: .green
                 )
                 
@@ -70,6 +71,25 @@ struct PopoverView: View {
             .padding(.horizontal)
             
             Divider()
+
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Status Bar")
+                    .font(.caption)
+                    .foregroundColor(.gray)
+
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], alignment: .leading, spacing: 8) {
+                    Toggle("Temperature", isOn: $settings.showTemperature)
+                    Toggle("Fan", isOn: $settings.showFanSpeed)
+                    Toggle("Network", isOn: $settings.showNetworkSpeed)
+                    Toggle("CPU", isOn: $settings.showCPUUsage)
+                    Toggle("Memory", isOn: $settings.showMemoryUsage)
+                }
+                .toggleStyle(.checkbox)
+                .font(.caption)
+            }
+            .padding(.horizontal)
+
+            Divider()
             
             HStack(spacing: 8) {
                 Text("Updated: \(formatTime(monitor.currentStats.timestamp))")
@@ -85,6 +105,7 @@ struct PopoverView: View {
     }
     
     private func tempColor(_ temp: Double) -> Color {
+        guard temp.isFinite else { return .gray }
         if temp > 80 {
             return .red
         } else if temp > 60 {
@@ -93,14 +114,26 @@ struct PopoverView: View {
             return .green
         }
     }
+
+    private func formatTemperature(_ temperature: Double) -> String {
+        temperature.isFinite ? String(format: "%.1f°C", temperature) : "N/A"
+    }
+
+    private func formatFanSpeed(_ speed: Double) -> String {
+        speed > 0 ? String(format: "%.0f RPM", speed) : "N/A"
+    }
+
+    private func formatFanPercentage(_ speed: Double) -> String {
+        speed > 0 ? String(format: "%.0f%%", min(100, (speed / 8000) * 100)) : ""
+    }
     
-    private func formatNetworkSpeed(_ speed: Double) -> String {
+    private func formatNetworkSpeed(_ speed: Double, direction: String) -> String {
         if speed > 1000 {
-            return String(format: "↓ %.2f Gbps", speed / 1000)
+            return String(format: "\(direction) %.2f Gbps", speed / 1000)
         } else if speed > 0.1 {
-            return String(format: "↓ %.1f Mbps", speed)
+            return String(format: "\(direction) %.1f Mbps", speed)
         } else {
-            return "↓ 0.0 Mbps"
+            return "\(direction) 0.0 Mbps"
         }
     }
     
@@ -147,5 +180,5 @@ struct StatRow: View {
 }
 
 #Preview {
-    PopoverView(monitor: SystemMonitor())
+    PopoverView(monitor: SystemMonitor(), settings: StatusBarSettings())
 }

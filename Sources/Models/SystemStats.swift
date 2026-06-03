@@ -1,8 +1,8 @@
 import Foundation
 
 struct SystemStats {
-    var cpuTemp: Double = 0.0
-    var gpuTemp: Double = 0.0
+    var cpuTemp: Double = .nan
+    var gpuTemp: Double = .nan
     var fanSpeed: Double = 0.0
     var networkSpeed: Double = 0.0
     var downloadSpeed: Double = 0.0
@@ -12,15 +12,15 @@ struct SystemStats {
     var timestamp: Date = Date()
     
     var maxTemp: Double {
-        max(cpuTemp, gpuTemp)
+        [cpuTemp, gpuTemp].filter(\.isFinite).max() ?? .nan
     }
     
     var isHighTemp: Bool {
-        maxTemp > 80
+        maxTemp.isFinite && maxTemp > 80
     }
     
     var isNormalTemp: Bool {
-        maxTemp < 60
+        maxTemp.isFinite && maxTemp < 60
     }
 }
 
