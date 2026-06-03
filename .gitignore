@@ -1,0 +1,43 @@
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+xcuserdata/
+*.xcuserdatad/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+.DS_Store
+
+# Build
+build/
+.build/
+*.o
+*.a
+*.swiftmodule/
+
+# Dependencies
+Pods/
+.pods/
+*.resolved
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.dSYM/
+*.su
+*.su.swiftmodule
+
+# Project specific
+.env
+.env.local
