@@ -1,5 +1,5 @@
 # SystemGlance 🔍
-
+# From github copilot
 A lightweight menu bar application for Mac M-series chips to monitor system temperature, fan speed, and network speed in real-time.
 
 ## Features
