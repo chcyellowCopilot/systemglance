@@ -30,7 +30,6 @@ struct PopoverView: View {
                     icon: "thermometer.sun.fill",
                     label: "Temperature",
                     value: formatTemperature(monitor.currentStats.cpuTemp),
-                    subvalue: "GPU: " + formatTemperature(monitor.currentStats.gpuTemp),
                     color: tempColor(monitor.currentStats.maxTemp)
                 )
                 
