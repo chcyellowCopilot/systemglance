@@ -7,85 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-	1A0001001234567800000001 /* SystemGlanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010F1234567800000001 /* SystemGlanceApp.swift */; };
-	1A0001011234567800000001 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010E1234567800000001 /* PopoverView.swift */; };
-	1A0001021234567800000001 /* SystemMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010D1234567800000001 /* SystemMonitor.swift */; };
-	1A0001031234567800000001 /* TemperatureMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010C1234567800000001 /* TemperatureMonitor.swift */; };
-	1A0001041234567800000001 /* FanSpeedMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010B1234567800000001 /* FanSpeedMonitor.swift */; };
-	1A0001051234567800000001 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010A1234567800000001 /* NetworkMonitor.swift */; };
-	1A0001061234567800000001 /* SystemStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0001091234567800000001 /* SystemStats.swift */; };
-	1A0001071234567800000001 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0001081234567800000001 /* AppKit.framework */; };
+	1A000100 /* SystemGlanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010F /* SystemGlanceApp.swift */; };
+	1A000101 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010E /* PopoverView.swift */; };
+	1A000102 /* SystemMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010D /* SystemMonitor.swift */; };
+	1A000103 /* TemperatureMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010C /* TemperatureMonitor.swift */; };
+	1A000104 /* FanSpeedMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010B /* FanSpeedMonitor.swift */; };
+	1A000105 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00010A /* NetworkMonitor.swift */; };
+	1A000106 /* SystemStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000109 /* SystemStats.swift */; };
+	1A000107 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A000108 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-	1A0000FD1234567800000001 /* SystemGlance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemGlance.app; sourceTree = BUILT_PRODUCTS_DIR; };
-	1A0001081234567800000001 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-	1A0001091234567800000001 /* SystemStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemStats.swift; sourceTree = "<group>"; };
-	1A00010A1234567800000001 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
-	1A00010B1234567800000001 /* FanSpeedMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanSpeedMonitor.swift; sourceTree = "<group>"; };
-	1A00010C1234567800000001 /* TemperatureMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureMonitor.swift; sourceTree = "<group>"; };
-	1A00010D1234567800000001 /* SystemMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitor.swift; sourceTree = "<group>"; };
-	1A00010E1234567800000001 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
-	1A00010F1234567800000001 /* SystemGlanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemGlanceApp.swift; sourceTree = "<group>"; };
-	1A0001101234567800000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+	1A0000FD /* SystemGlance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemGlance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+	1A000108 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+	1A000109 /* SystemStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemStats.swift; sourceTree = "<group>"; };
+	1A00010A /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+	1A00010B /* FanSpeedMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanSpeedMonitor.swift; sourceTree = "<group>"; };
+	1A00010C /* TemperatureMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureMonitor.swift; sourceTree = "<group>"; };
+	1A00010D /* SystemMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemMonitor.swift; sourceTree = "<group>"; };
+	1A00010E /* PopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+	1A00010F /* SystemGlanceApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemGlanceApp.swift; sourceTree = "<group>"; };
+	1A000110 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+	1A0000FC /* SystemGlance */ = {isa = PBXNativeTarget; buildConfigurationList = 1A000114 /* Build configuration list for PBXNativeTarget "SystemGlance" */; buildPhases = (1A0000F9, 1A0000FA, 1A0000FB); buildRules = (); dependencies = (); name = SystemGlance; productName = SystemGlance; productReference = 1A0000FD /* SystemGlance.app */; productType = "com.apple.product-type.application"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-	1A0000FA1234567800000001 /* Frameworks */ = {
+	1A0000FA /* Frameworks */ = {
 		isa = PBXFrameworksBuildPhase;
 		buildActionMask = 2147483647;
 		files = (
-			1A0001071234567800000001 /* AppKit.framework in Frameworks */,
+			1A000107 /* AppKit.framework in Frameworks */,
 		);
 		runOnlyForDeploymentPostprocessing = 0;
 	};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-	1A0000F41234567800000001 = {
+	1A0000F4 = {
 		isa = PBXGroup;
 		children = (
-			1A0000FF1234567800000001 /* Sources */,
-			1A0001081234567800000001 /* AppKit.framework */,
-			1A0000FD1234567800000001 /* SystemGlance.app */,
+			1A0000FF /* Sources */,
+			1A000108 /* AppKit.framework */,
+			1A0000FD /* SystemGlance.app */,
 		);
 		sourceTree = "<group>";
 	};
-	1A0000FF1234567800000001 /* Sources */ = {
+	1A0000FF /* Sources */ = {
 		isa = PBXGroup;
 		children = (
-			1A00010F1234567800000001 /* SystemGlanceApp.swift */,
-			1A0001111234567800000001 /* Views */,
-			1A0001121234567800000001 /* Services */,
-			1A0001131234567800000001 /* Models */,
-			1A0001101234567800000001 /* Info.plist */,
+			1A00010F /* SystemGlanceApp.swift */,
+			1A000111 /* Views */,
+			1A000112 /* Services */,
+			1A000113 /* Models */,
+			1A000110 /* Info.plist */,
 		);
 		path = Sources;
 		sourceTree = SOURCE_ROOT;
 	};
-	1A0001111234567800000001 /* Views */ = {
+	1A000111 /* Views */ = {
 		isa = PBXGroup;
 		children = (
-			1A00010E1234567800000001 /* PopoverView.swift */,
+			1A00010E /* PopoverView.swift */,
 		);
 		path = Views;
 		sourceTree = "<group>";
 	};
-	1A0001121234567800000001 /* Services */ = {
+	1A000112 /* Services */ = {
 		isa = PBXGroup;
 		children = (
-			1A00010D1234567800000001 /* SystemMonitor.swift */,
-			1A00010C1234567800000001 /* TemperatureMonitor.swift */,
-			1A00010B1234567800000001 /* FanSpeedMonitor.swift */,
-			1A00010A1234567800000001 /* NetworkMonitor.swift */,
+			1A00010D /* SystemMonitor.swift */,
+			1A00010C /* TemperatureMonitor.swift */,
+			1A00010B /* FanSpeedMonitor.swift */,
+			1A00010A /* NetworkMonitor.swift */,
 		);
 		path = Services;
 		sourceTree = "<group>";
 	};
-	1A0001131234567800000001 /* Models */ = {
+	1A000113 /* Models */ = {
 		isa = PBXGroup;
 		children = (
-			1A0001091234567800000001 /* SystemStats.swift */,
+			1A000109 /* SystemStats.swift */,
 		);
 		path = Models;
 		sourceTree = "<group>";
@@ -93,13 +94,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-	1A0000FC1234567800000001 /* SystemGlance */ = {
+	1A0000FC /* SystemGlance */ = {
 		isa = PBXNativeTarget;
-		buildConfigurationList = 1A0001141234567800000001 /* Build configuration list for PBXNativeTarget "SystemGlance" */;
+		buildConfigurationList = 1A000114 /* Build configuration list for PBXNativeTarget "SystemGlance" */;
 		buildPhases = (
-			1A0000F91234567800000001 /* Sources */,
-			1A0000FA1234567800000001 /* Frameworks */,
-			1A0000FB1234567800000001 /* Resources */,
+			1A0000F9 /* Sources */,
+			1A0000FA /* Frameworks */,
+			1A0000FB /* Resources */,
 		);
 		buildRules = (
 		);
@@ -107,25 +108,25 @@
 		);
 		name = SystemGlance;
 		productName = SystemGlance;
-		productReference = 1A0000FD1234567800000001 /* SystemGlance.app */;
+		productReference = 1A0000FD /* SystemGlance.app */;
 		productType = "com.apple.product-type.application";
 	};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-	1A0000F51234567800000001 /* Project object */ = {
+	1A0000F5 /* Project object */ = {
 		isa = PBXProject;
 		attributes = {
 			BuildIndependentTargetsInParallel = 1;
 			LastSwiftUpdateCheck = 1400;
 			LastUpgradeCheck = 1400;
 			TargetAttributes = {
-				1A0000FC1234567800000001 = {
+				1A0000FC = {
 					CreatedOnToolsVersion = 14.0;
 				};
 			};
 		};
-		buildConfigurationList = 1A0000F81234567800000001 /* Build configuration list for PBXProject "SystemGlance" */;
+		buildConfigurationList = 1A0000F8 /* Build configuration list for PBXProject "SystemGlance" */;
 		compatibilityVersion = "Xcode 14.0";
 		developmentRegion = en;
 		hasScannedForEncodings = 0;
@@ -133,18 +134,18 @@
 			en,
 			Base,
 		);
-		mainGroup = 1A0000F41234567800000001;
-		productRefGroup = 1A0000FD1234567800000001 /* Products */;
+		mainGroup = 1A0000F4;
+		productRefGroup = 1A0000FD /* Products */;
 		projectDirPath = "";
 		projectRoot = "";
 		targets = (
-			1A0000FC1234567800000001 /* SystemGlance */,
+			1A0000FC /* SystemGlance */,
 		);
 	};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-	1A0000FB1234567800000001 /* Resources */ = {
+	1A0000FB /* Resources */ = {
 		isa = PBXResourcesBuildPhase;
 		buildActionMask = 2147483647;
 		files = (
@@ -154,24 +155,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-	1A0000F91234567800000001 /* Sources */ = {
+	1A0000F9 /* Sources */ = {
 		isa = PBXSourcesBuildPhase;
 		buildActionMask = 2147483647;
 		files = (
-			1A0001001234567800000001 /* SystemGlanceApp.swift in Sources */,
-			1A0001011234567800000001 /* PopoverView.swift in Sources */,
-			1A0001021234567800000001 /* SystemMonitor.swift in Sources */,
-			1A0001031234567800000001 /* TemperatureMonitor.swift in Sources */,
-			1A0001041234567800000001 /* FanSpeedMonitor.swift in Sources */,
-			1A0001051234567800000001 /* NetworkMonitor.swift in Sources */,
-			1A0001061234567800000001 /* SystemStats.swift in Sources */,
+			1A000100 /* SystemGlanceApp.swift in Sources */,
+			1A000101 /* PopoverView.swift in Sources */,
+			1A000102 /* SystemMonitor.swift in Sources */,
+			1A000103 /* TemperatureMonitor.swift in Sources */,
+			1A000104 /* FanSpeedMonitor.swift in Sources */,
+			1A000105 /* NetworkMonitor.swift in Sources */,
+			1A000106 /* SystemStats.swift in Sources */,
 		);
 		runOnlyForDeploymentPostprocessing = 0;
 	};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-	1A0001151234567800000001 /* Debug */ = {
+	1A000115 /* Debug */ = {
 		isa = XCBuildConfiguration;
 		buildSettings = {
 			ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +232,7 @@
 		};
 		name = Debug;
 	};
-	1A0001161234567800000001 /* Release */ = {
+	1A000116 /* Release */ = {
 		isa = XCBuildConfiguration;
 		buildSettings = {
 			ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,11 +284,9 @@
 		};
 		name = Release;
 	};
-	1A0001171234567800000001 /* Debug */ = {
+	1A000117 /* Debug */ = {
 		isa = XCBuildConfiguration;
 		buildSettings = {
-			ASETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-			ASETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 			CODE_SIGN_ENTITLEMENTS = "";
 			CODE_SIGN_IDENTITY = "-";
 			CODE_SIGN_STYLE = Automatic;
@@ -312,11 +311,9 @@
 		};
 		name = Debug;
 	};
-	1A0001181234567800000001 /* Release */ = {
+	1A000118 /* Release */ = {
 		isa = XCBuildConfiguration;
 		buildSettings = {
-			ASETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-			ASETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 			CODE_SIGN_ENTITLEMENTS = "";
 			CODE_SIGN_IDENTITY = "-";
 			CODE_SIGN_STYLE = Automatic;
@@ -345,25 +342,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-	1A0000F81234567800000001 /* Build configuration list for PBXProject "SystemGlance" */ = {
+	1A0000F8 /* Build configuration list for PBXProject "SystemGlance" */ = {
 		isa = XCConfigurationList;
 		buildConfigurations = (
-			1A0001151234567800000001 /* Debug */,
-			1A0001161234567800000001 /* Release */,
+			1A000115 /* Debug */,
+			1A000116 /* Release */,
 		);
 		defaultConfigurationIsVisible = 0;
 		defaultConfigurationName = Release;
 	};
-	1A0001141234567800000001 /* Build configuration list for PBXNativeTarget "SystemGlance" */ = {
+	1A000114 /* Build configuration list for PBXNativeTarget "SystemGlance" */ = {
 		isa = XCConfigurationList;
 		buildConfigurations = (
-			1A0001171234567800000001 /* Debug */,
-			1A0001181234567800000001 /* Release */,
+			1A000117 /* Debug */,
+			1A000118 /* Release */,
 		);
 		defaultConfigurationIsVisible = 0;
 		defaultConfigurationName = Release;
 	};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1A0000F51234567800000001 /* Project object */;
+	rootObject = 1A0000F5 /* Project object */;
 }
